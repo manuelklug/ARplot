@@ -6,13 +6,8 @@ import seaborn as sns
 
 from PIL import Image
 
-import calendar
-import locale
-locale.setlocale(locale.LC_TIME, 'es_ES')
-
-
 # DATOS
-MESES = [mes.capitalize()[:3] for mes in calendar.month_name[1:]]
+MESES = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
 ESTILOS_GRAFICOS = ["default", "seaborn-whitegrid", "ggplot", "seaborn-dark", "fivethirtyeight"]
 TIPOS_DE_GRAFICOS = ["Gráfico de línea", "Gráfico de barras"]
 FONTS = ["Arial", "Calibri", "Consolas", "Myriad Pro", "Tahoma", "Times New Roman", "Trebuchet MS", "Verdana"]
